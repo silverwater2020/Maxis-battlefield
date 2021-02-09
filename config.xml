@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="Maxis.fire.app" version="1.0.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="Maxis.fire.appbattlefield" version="1.0.0.0">
 
-	<name>MAXIS</name>
+	<name>MAXIS-battlefield</name>
 	<description>Turret based avoid Game</description>
 	<author href="http://silverwaterentertainment.com" email="silverwaterentertainment@gmail.com">Silver Water Entertainment</author>
 
@@ -15,7 +15,7 @@
 
 	<preference name="orientation" value="landscape" />
 	<preference name="fullscreen" value="true" />
-	<preference name="phonegap-version" value="cli-9.0.0" />
+	<preference name="phonegap-version" value="cli-8.0.0" />
 	
 	<preference name="deployment-target" value="8.0" />
 	<preference name="android-minSdkVersion" value="16" />
@@ -26,8 +26,11 @@
 
 	<plugin name="cordova-plugin-inappbrowser" source="npm" />
 	<plugin name="cordova-plugin-admob-free" source="npm">
-	       <variable name="ADMOB_APP_ID" value"ca-app-pub-6385717796891450~1301442999"> 
+	    <variable name="ADMOB_APP_ID" 
+		value="ca-app-pub-6385717796891450~1301442999"/> 
 	</plugin>
+
+	<engine name = "android" />
 
 	<!-- Optional splash screen image, e.g.: -->
 	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
