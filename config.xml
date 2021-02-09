@@ -29,10 +29,7 @@
 	    <variable name="ADMOB_APP_ID" 
 		value="ca-app-pub-6385717796891450~1301442999"/> 
 	</plugin>
+	
 
 	<engine name = "android" />
-
-	<!-- Optional splash screen image, e.g.: -->
-	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
-
 </widget>
